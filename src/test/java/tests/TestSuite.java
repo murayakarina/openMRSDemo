@@ -20,6 +20,7 @@ import static config.ConfigProperties.sendEmail;
     @CucumberOptions(publish = true)
     @Suite.SuiteClasses({
             TestRunner1.class,
+            TestRunner2.class
     })
 
     public  class TestSuite {
